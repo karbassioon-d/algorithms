@@ -6,6 +6,15 @@ class Node {
     }
 }
 
+/*    Tree:
+
+             A4
+           /    \
+         B2     C6
+        /  \   /  \
+        D1 E3 F5  G7
+*/
+
 //Explores the left side of the tree, then the right side
 function dfsPreorder(root) {
     if (!root) {

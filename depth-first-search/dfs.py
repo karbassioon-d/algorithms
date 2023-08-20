@@ -6,14 +6,14 @@
 
 #In each function, the print statement is where you'd wanna replace to append or pop that value to an array for example.
 
-#Tree:
+"""   Tree:
 
-        #     A4
-        #   /    \
-        # B2     C6
-        #/  \   /  \
-        #D1 E3 F5  G7
-
+             A4
+           /    \
+         B2     C6
+        /  \   /  \
+        D1 E3 F5  G7
+"""
 class Node:
     def __init__(self, val, left=None, right=None):
         self.val = val
