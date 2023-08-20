@@ -30,7 +30,7 @@ def dfs_preorder(root):
     dfs_preorder(root.right)
 
 
-#in order "visits nodes in ascending order according to their values". The left subtree contains smaller values (usually) and the right side contains larger values
+#Goes in ascending order according to their values". The left subtree contains smaller values (usually) and the right side contains larger values
 def dfs_inorder(root):
     if not root:
         return
@@ -57,7 +57,43 @@ def dfs_reverse(root):
     dfs_reverse(root.left)
 
 
-
 mytree = Node('A4', Node('B2', Node('D1'), Node('E3')), Node('C6', Node('F5'), Node('G7')))
 
-dfs_reverse(mytree)
+dfs_inorder(mytree)
+
+
+
+#If you need to add the nodes to a list in a certain order, add an empty list and replace the print statements with list_name.append(root.val). Then return whatever spot of the list value you need
+
+#Example: Leetcode 230
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        res = []
+        def inorder(root):
+            if not root:
+                return
+            inorder(root.left)
+            res.append(root.val)
+            inorder(root.right)
+        inorder(root)
+        return res[k-1]
+    
+#But a more efficient way is this solution where you stop early:
+def kthSmallest_dfs_early_stopping(self, root, k):
+	res = []
+	def _inorder(node):
+		if not node: return
+		_inorder(node.left)
+		if len(res) == k:
+			return
+		res.append(node.val)
+		_inorder(node.right)
+	_inorder(root)
+	return res[-1]
