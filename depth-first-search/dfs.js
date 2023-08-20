@@ -6,13 +6,44 @@ class Node {
     }
 }
 
+//Explores the left side of the tree, then the right side
 function dfsPreorder(root) {
     if (!root) {
-        return;
-    }
+        return
+    };
     console.log(root.val);
     dfsPreorder(root.left);
     dfsPreorder(root.right);
+}
+
+//Goes in ascending order according to their values
+function dfsInorder(root) {
+    if (!root) {
+        return
+    };
+    dfsInorder(root.left);
+    console.log(root.val);
+    dfsInorder(root.right);
+}
+
+//Explores the right side of the tree then the left
+function dfsPostorder(root) {
+    if (!root) {
+        return
+    };
+    dfsPostorder(root.left);
+    dfsPostorder(root.right);
+    console.log(root.val);
+}
+
+//Explores in reverse order from largest value to smallest value
+function dfsReverse(root) {
+    if (!root) {
+        return
+    };
+    dfsReverse(root.right);
+    console.log(root.val);
+    dfsReverse(root.left);
 }
 
 const myTree = new Node('A4',
