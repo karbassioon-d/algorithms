@@ -1,12 +1,3 @@
-#Isn't a recursion algorithm
-#Is also known as level order traversal
-
-#Uses a queue data structure to process nodes (first in first out)
-
-#Time complexity is O(c * n) which reduces to O(n)
-
-#probably one of the most common algorithms you'll use
-
 """   Tree:
 
              A4
@@ -25,11 +16,10 @@ from collections import deque
 
 def bfs(root):
 
-    queue= deque()
-
+    queue = deque()
     if root:
-            queue.append(root)
-    
+        queue.append(root)
+
     level = 0
     while len(queue) > 0:
         print("Level: ", level)
