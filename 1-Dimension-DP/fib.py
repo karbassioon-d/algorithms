@@ -7,10 +7,10 @@ def memoization(n, cache):
     if n in cache:
         return cache[n]
 
-    cache[n] = memoization(n - 1) + memoization(n - 2)
+    cache[n] = memoization(n - 1, cache) + memoization(n - 2, cache)
     return cache[n]
 
-# print(memoization(5, {}))
+print("memoization approach: ", memoization(10, {}))
 
 
 #Bottom up or "true dynamic programming" solution
@@ -29,4 +29,4 @@ def dp(n):
         i += 1
     return dp[1]
 
-print(dp(10))
+print("Bottom up approach: ", dp(10))
