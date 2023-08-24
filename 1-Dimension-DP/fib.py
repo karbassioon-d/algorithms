@@ -30,3 +30,16 @@ def dp(n):
     return dp[1]
 
 print("Bottom up approach: ", dp(10))
+
+#Leetcode 70 Climbing Stairs Bottom up/DP approach
+
+
+def climbStairs(n):
+    one, two = 1, 1
+
+    for i in range(n-1):
+        temp = one
+        one = one + two
+        two = temp
+
+    return one
