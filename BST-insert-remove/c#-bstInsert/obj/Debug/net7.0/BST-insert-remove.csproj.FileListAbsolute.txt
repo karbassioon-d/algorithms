@@ -1,0 +1,14 @@
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/bin/Debug/net7.0/BST-insert-remove
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/bin/Debug/net7.0/BST-insert-remove.deps.json
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/bin/Debug/net7.0/BST-insert-remove.runtimeconfig.json
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/bin/Debug/net7.0/BST-insert-remove.dll
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/bin/Debug/net7.0/BST-insert-remove.pdb
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/BST-insert-remove.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/BST-insert-remove.AssemblyInfoInputs.cache
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/BST-insert-remove.AssemblyInfo.cs
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/BST-insert-remove.csproj.CoreCompileInputs.cache
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/BST-insert-remove.dll
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/refint/BST-insert-remove.dll
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/BST-insert-remove.pdb
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/BST-insert-remove.genruntimeconfig.cache
+/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/Debug/net7.0/ref/BST-insert-remove.dll
