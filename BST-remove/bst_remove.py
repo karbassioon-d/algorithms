@@ -1,5 +1,5 @@
 class TreeNode:
-    def __init__(self, val, left, right):
+    def __init__(self, val, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
@@ -46,3 +46,30 @@ def remove(root, val):
 
 
 #Time complexity is O
+
+#function to visualize by level
+def print_tree_by_levels(root):
+    if not root:
+        return
+    
+    queue = [root]
+    
+    while queue:
+        level_values = []
+        level_size = len(queue)
+        
+        for _ in range(level_size):
+            node = queue.pop(0)
+            level_values.append(node.val)
+            
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+        
+        print(level_values)
+
+mytree = TreeNode(4, TreeNode(2, TreeNode(1), TreeNode(3)), TreeNode(6, TreeNode(5), TreeNode(7)))
+
+remove(mytree, 4)
+print_tree_by_levels(mytree)

@@ -15,6 +15,10 @@ def insert (root, val):
         root.left = insert(root.left, val)
     return root
 
+mytree = TreeNode(4, TreeNode(2, TreeNode(1), TreeNode(3)), TreeNode(6, TreeNode(5), TreeNode(7)))
+
+
+
 """   Tree:
 
              A4
