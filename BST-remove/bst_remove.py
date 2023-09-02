@@ -22,7 +22,7 @@ def remove(root, val):
     elif val < root.val:
         root.left = remove(root.left, val)
 
-#Base case where the node you want to remove is the first one
+#Base case where the node you want to remove is the first node in the tree
     else:
 
         #checks to see if either child is null and return the one that isn't null
