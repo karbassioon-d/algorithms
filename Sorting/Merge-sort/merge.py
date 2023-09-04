@@ -49,4 +49,4 @@ def merge(arr, s, m, e):
 
 
 arr = [3, 2, 4, 1, 6]
-print(mergeSort(arr, arr[0], arr[-1]))
+# print(mergeSort(arr, arr[0], arr[-1]))
