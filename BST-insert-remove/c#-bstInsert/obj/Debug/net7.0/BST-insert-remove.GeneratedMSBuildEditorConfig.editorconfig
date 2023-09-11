@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BST_insert_remove
-build_property.ProjectDir = /Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/
+build_property.ProjectDir = c:\Users\Dara\Desktop\code\algorithms\BST-insert-remove\c#-bstInsert\

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/BST-insert-remove.csproj": {}
+    "c:\\Users\\Dara\\Desktop\\code\\algorithms\\BST-insert-remove\\c#-bstInsert\\BST-insert-remove.csproj": {}
   },
   "projects": {
-    "/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/BST-insert-remove.csproj": {
+    "c:\\Users\\Dara\\Desktop\\code\\algorithms\\BST-insert-remove\\c#-bstInsert\\BST-insert-remove.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/BST-insert-remove.csproj",
+        "projectUniqueName": "c:\\Users\\Dara\\Desktop\\code\\algorithms\\BST-insert-remove\\c#-bstInsert\\BST-insert-remove.csproj",
         "projectName": "BST-insert-remove",
-        "projectPath": "/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/BST-insert-remove.csproj",
-        "packagesPath": "/Users/dara/.nuget/packages/",
-        "outputPath": "/Users/dara/code/algorithms/BST-insert-remove/c#-bstInsert/obj/",
+        "projectPath": "c:\\Users\\Dara\\Desktop\\code\\algorithms\\BST-insert-remove\\c#-bstInsert\\BST-insert-remove.csproj",
+        "packagesPath": "C:\\Users\\Dara\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Dara\\Desktop\\code\\algorithms\\BST-insert-remove\\c#-bstInsert\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dara/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Dara\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
